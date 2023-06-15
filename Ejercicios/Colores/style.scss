@@ -1,26 +1,15 @@
+$marc: #3187d3;
+$primary: rgb(255, 0, 200);
+$secondary: rgb(151, 153, 128);
+$success: rgb(134, 234, 40);
+$info: rgb(55, 231, 231);
+$warning: rgb(249, 162, 0);
+$danger: rgba(255, 0, 0, 0.715);
+$light: #000;
+$dark: #fff;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
- 
-$grid-breakpoints: (
-  break0: 0,
-  break250: 250px,
-  break500: 500px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
-
-@include media-breakpoint-between(break0, break250) {
-    *{
-        background-color: violet;
-    }
-}
-
-@include media-breakpoint-between(break250, break500) {
-    *{
-        background-color: orange;
-    }
+.marc-texto{
+    color: $marc;
 }
