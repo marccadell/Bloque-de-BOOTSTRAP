@@ -1,0 +1,26 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+ 
+$grid-breakpoints: (
+  break0: 0,
+  break250: 250px,
+  break500: 500px,
+  break750: 750px,
+  break1000: 1000px,
+  break1250: 1250px
+);
+
+@include media-breakpoint-between(break0, break750) {
+    *{
+        background-color: violet;
+    }
+}
+
+@include media-breakpoint-up(break750) {
+    *{
+        background-color: green;
+    }
+}

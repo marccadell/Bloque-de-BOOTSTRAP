@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@include media-breakpoint-between(xs, lg) {
+    *{
+        background-color: violet;
+    }
+}
+ 
+@include media-breakpoint-up(lg) {
+    *{
+        background-color: green;
+    }
+}
