@@ -1,0 +1,60 @@
+
+/*# sourceMappingURL=style.scss.map */
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.main{
+    display: grid;
+    grid-template: repeat(2, 2fr) / auto auto auto;
+    align-content: space-around;
+}
+
+.container-1{
+    background-color: rgb(161, 62, 248);
+    color: white;
+    margin: 10px;
+    padding: 15px 0 15px 0;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.cabecera{
+    position: relative;
+    display: grid;
+    grid-template: repeat(1, 1fr) / 70px 160px;
+    padding: 15px 0 0 30px;
+
+    h4{
+        font-weight: lighter;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    .subtitulo{
+        font-size: 16px;
+        color: lightgray;
+    }
+}
+
+img{
+    border-radius: 50%;
+}
+
+
+
+.parrafo1{
+    padding: 20px 35px 20px 35px;
+    font-size: 23px;
+}
+
+.parrafo2{
+    padding: 0 35px 20px 35px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: lightgray;
+}
+

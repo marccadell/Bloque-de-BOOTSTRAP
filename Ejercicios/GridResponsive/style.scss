@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.bloqueprincipal{
+    padding: 30px;
+}
+
+.bloqueprincipal1{
+    padding: 30px;
+}
+
+.bloqueprincipal2{
+    padding: 10px;
+}
+
+.bloque1{
+    padding: 30px;
+}
+
+.bloque2{
+    padding: 150px;
+}
+
+.bloque3{
+    padding: 40px;
+}
+
+@include media-breakpoint-down(sm) {
+    .bloqueresponsive{
+        display: grid;
+        grid-template: auto;
+    }
+}
+ 
+@include media-breakpoint-between(md) {
+    .bloqueresponsive{
+        display: block;
+    }
+
+}
+
+
+/*# sourceMappingURL=style.scss.map */

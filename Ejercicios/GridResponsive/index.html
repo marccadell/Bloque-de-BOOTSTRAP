@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Grid Responsive</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-fluid text-center min-vh-100 d-flex flex-column gap-4">
+    <div class="row">
+      <div style="background-color: greenyellow;" class="col bloqueprincipal">&nbsp;</div>
+    </div>
+    <div class="row flex-grow-1"> 
+      <div style="background-color: red;" class="col-2 bloqueprincipal1"> &nbsp;</div>  
+      <div class="col">
+        <div class="row m-2">
+          <div style="background-color: violet;" class="col bg-gradient bloque1">&nbsp;</div>
+        </div>
+        <div class="row m-2 gap-1">
+          <div style="background-color: orange;" class="col bloque2">&nbsp;</div>
+          <div style="background-color: orange;" class="col bloque2">&nbsp;</div>
+        </div>
+        <div class="row m-2 gap-1 bloqueresponsive">
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col-auto bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+        </div>
+        <div class="row m-2 gap-1 bloqueresponsive">
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col-auto bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+          <div style="background-color: blue;" class="col bloque3">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div class="row"> 
+      <div style="background-color: greenyellow;" class="col bloqueprincipal2"></div>
+    </div>
+  </div>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

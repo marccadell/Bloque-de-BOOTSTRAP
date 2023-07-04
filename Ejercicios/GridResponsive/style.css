@@ -1,0 +1,22 @@
+/* Error: Missing argument $upper.
+ *    ,--> style.scss
+ * 34 | @include media-breakpoint-between(md) {
+ *    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *    '
+ *    ,--> ..\node_modules\bootstrap\scss\mixins\_breakpoints.scss
+ * 87 | @mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+ *    |        ========================================================================= declaration
+ *    '
+ *   style.scss 34:1  media-breakpoint-between()
+ *   style.scss 34:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Missing argument $upper.\a    \250c \2500 \2500 > style.scss\a 34 \2502  @include media-breakpoint-between(md) {\a    \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a    \2575 \a    \250c \2500 \2500 > ..\\node_modules\\bootstrap\\scss\\mixins\\_breakpoints.scss\a 87 \2502  @mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {\a    \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a    \2575 \a   style.scss 34:1  media-breakpoint-between()\a   style.scss 34:1  root stylesheet";
+}
